@@ -7,6 +7,8 @@ public class Target : MonoBehaviour
 {
     public float health = 50f;
 
+    public bool dead = false;
+
     public void takeDamage(float amount) {
         health -= amount;
         if (health < 0) {
@@ -14,6 +16,6 @@ public class Target : MonoBehaviour
         }
     }
     void die() {
-        Destroy(gameObject);
+        dead = true;
     }
 }

@@ -149,6 +149,8 @@
      <Compile Include="Assets\Imports\Standard Assets\ParticleSystems\Scripts\Hose.cs" />
      <Compile Include="Assets\Imports\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Imports\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\LevelGen.cs" />
+     <Compile Include="Assets\Scripts\Platform.cs" />
      <None Include="Assets\Imports\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Imports\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Imports\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -193,7 +195,9 @@
      <None Include="Assets\Imports\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Imports\EffectExamples\Misc Effects\Shaders\FireFly.shader" />
      <None Include="Assets\Imports\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
      <None Include="Assets\Imports\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Materials\test.shader" />
      <None Include="Assets\Imports\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Imports\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
      <None Include="Assets\Imports\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />

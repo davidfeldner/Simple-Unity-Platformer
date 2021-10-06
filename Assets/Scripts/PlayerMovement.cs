@@ -56,11 +56,20 @@ public class PlayerMovement : MonoBehaviour
         if (Time.time < dashTimer) {
             dashTimer -= Time.deltaTime;
             dash();
-            Debug.Log("calls");
         }
     }
     void dash() {
         controller.Move(transform.forward * dashSpeed*50 * Time.deltaTime);
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit) {
+        if (hit.collider.tag == "Platform") {
+            Platform platform = hit.collider.gameObject.GetComponent<Platform>();
+            if (!platform.playerCollide) {
+                platform.playerCollide = true;
+            }
+            
+        }
     }
 
 }
